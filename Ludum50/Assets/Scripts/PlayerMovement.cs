@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public GameObject Player;
     Transform playerTransform;
 
     bool useSnapback = false;
@@ -24,6 +25,8 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
+
         playerTransform = this.transform;
         snapbackTime = Time.time;
         //Debug.Log(Time.time);
