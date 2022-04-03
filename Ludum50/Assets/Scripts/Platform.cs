@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class Platform : MonoBehaviour
 {
-    private PlatformManager platformManager;
+    public PlatformManager platformManager;
 
     private void OnEnable()
     {
         platformManager = GameObject.FindObjectOfType<PlatformManager>();
-        Debug.Log("Found Manager");
     }
 
     private void OnBecameInvisible()

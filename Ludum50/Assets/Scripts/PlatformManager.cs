@@ -21,7 +21,8 @@ public class PlatformManager : MonoBehaviour
     public void ReusePlatform(GameObject platform)
     {
         platform.transform.position = new Vector3(0, -1, zOffset);
+        Debug.Log("Reuse: " + zOffset);
         zOffset += 12;
-        Debug.Log("Reuse");
+        
     }
 }
