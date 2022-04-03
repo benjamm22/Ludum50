@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraMovement : MonoBehaviour
 {
     public GameObject Player;
-    private Vector3 positionDelta = new Vector3(0, 3, -10);
+    private Vector3 positionDelta = new Vector3(0, 8, -15);
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +15,6 @@ public class CameraMovement : MonoBehaviour
     void Update()
     {
         // lerp this so its smoother
-        this.transform.position = Player.transform.position + positionDelta;
+        this.transform.position = new Vector3(0, 0, Player.transform.position.z) + positionDelta;
     }
 }
