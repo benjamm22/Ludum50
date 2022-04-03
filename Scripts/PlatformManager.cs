@@ -7,7 +7,7 @@ public class PlatformManager : MonoBehaviour
     [SerializeField]
     private GameObject[] platforms;
     [SerializeField]
-    private int zOffset = 0;
+    private int zOffset = 0;    
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +21,6 @@ public class PlatformManager : MonoBehaviour
     public void ReusePlatform(GameObject platform)
     {
         platform.transform.position = new Vector3(0, -1, zOffset);
-        Debug.Log("Reuse: " + zOffset);
-        zOffset += 12;
+        zOffset += 12;        
     }
 }
