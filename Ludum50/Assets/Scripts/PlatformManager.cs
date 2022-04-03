@@ -23,6 +23,5 @@ public class PlatformManager : MonoBehaviour
         platform.transform.position = new Vector3(0, -1, zOffset);
         Debug.Log("Reuse: " + zOffset);
         zOffset += 12;
-        
     }
 }

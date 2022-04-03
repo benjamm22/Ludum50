@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Platform : MonoBehaviour
 {
-    public PlatformManager platformManager;
+
+    private PlatformManager platformManager;
+
 
     private void OnEnable()
     {
