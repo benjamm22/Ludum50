@@ -1,5 +1,5 @@
 # Bath Time - Ludum Dare 50
-**Ludum Dare 50 Submission**
+**Ludum Dare 50: Delay the Inevitable**
 
 Playable in broswer: https://benjamm22.itch.io/bath-time
 
