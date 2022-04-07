@@ -1,7 +1,7 @@
 # Bath Time - Ludum Dare 50
 **Ludum Dare 50: Delay the Inevitable**
 
-Playable in broswer: https://benjamm22.itch.io/bath-time
+Playable in browser: https://benjamm22.itch.io/bath-time
 
 All assets were made from scratch (aside from music) in the duration of the game jam.
 - **Lead Programmer:** Mr.Dandro
